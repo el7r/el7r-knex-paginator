@@ -1,5 +1,7 @@
 # Knex-Paginator
 
+(Comptible with the latest version of knexjs)
+
 Simple paginator for Knex. It adds the .paginate() function to knex's query builder.
 
 ## How to set up
@@ -7,7 +9,7 @@ Simple paginator for Knex. It adds the .paginate() function to knex's query buil
 To use this paginator, first you will have to install it:
 
 ```
-npm i knex-paginator --save
+npm i el7r-knex-paginator --save
 ```
 
 Then, simply add the following lines to your Knex set up:
@@ -15,7 +17,7 @@ Then, simply add the following lines to your Knex set up:
 ```javascript
 const knex = require('knex')(config);
 
-const setupPaginator = require('knex-paginator');
+const setupPaginator = require('el7r-knex-paginator');
 setupPaginator(knex);
 ```
 
